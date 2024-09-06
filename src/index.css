@@ -1,0 +1,43 @@
+@import '@fontsource/poppins';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.loader {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l5 1s infinite linear alternate;
+}
+
+@keyframes l5 {
+    0% {
+        box-shadow: 20px 0 #152259, -20px 0 #1522591c;
+        background: #152259
+    }
+
+    33% {
+        box-shadow: 20px 0 #152259, -20px 0 #1522591c;
+        background: #1522591c
+    }
+
+    66% {
+        box-shadow: 20px 0 #1522591c, -20px 0 #152259;
+        background: #1522591c
+    }
+
+    100% {
+        box-shadow: 20px 0 #1522591c, -20px 0 #152259;
+        background: #152259
+    }
+}
