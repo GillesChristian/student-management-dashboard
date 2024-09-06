@@ -1,5 +1,5 @@
-# Student Management Dashboard
-Implementation of a user-friendly interface that interacts seamlessly with a Student Management API. The interface allow the users to perform CRUD (Create, Read, Update, Delete) operations on student data.
+# Student Management Dashboard - Internship Project
+This repository contains a Student Management Dashboard developed during my internship at Primus Cloud Solutions. The project is built using React.js and Tailwind CSS, with Vite as the build tool, and integrates with RESTful API endpoints to manage student records.
 ## Dashboard UI
 <img src="./ui/Dashboard-ui.png" />
 
